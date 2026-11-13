@@ -1,0 +1,18 @@
+# Captured RF telemetry & raw logs (may contain neighborhood meter IDs)
+logs/
+*.jsonl
+*.log
+*.cu8
+outdoor_scan_results.json
+summary_10min.json
+water_summary.json
+utility_meters.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
